@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alex Morgan</title>
+    <meta name="description" content="Découvrez mon portfolio complet - photographie, design et créations artistiques">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Alex Morgan</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="gallery.html" class="active">Portfolio</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Mon Portfolio</h1>
+            <p>Une collection de mes projets créatifs</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="photography">Photographie</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="art">Art</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Photography -->
+                <div class="gallery-item" data-category="photography">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600" alt="Photo 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Série Urbaine 1</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="photography">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Photo 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Nature Sauvage</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="photography">
+                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600" alt="Photo 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Voyage Montagne</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="photography">
+                    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600" alt="Photo 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Paysages Nordiques</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="photography">
+                    <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600" alt="Photo 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Crépuscule</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="photography">
+                    <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=600" alt="Photo 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Forêt Mystique</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div class="gallery-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600" alt="Design 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Identité Visuelle</h3>
+                        <p>Design Graphique</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600" alt="Design 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>UI/UX Design</h3>
+                        <p>Design Web</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600" alt="Design 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Packaging Produit</h3>
+                        <p>Design Graphique</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=600" alt="Design 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Branding Moderne</h3>
+                        <p>Design Graphique</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1600132806608-231446b2e7af?w=600" alt="Design 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Interface Mobile</h3>
+                        <p>Design Web</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1558403194-611308249627?w=600" alt="Design 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Affiche Événement</h3>
+                        <p>Design Graphique</p>
+                    </div>
+                </div>
+
+                <!-- Art -->
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600" alt="Art 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Composition Abstraite</h3>
+                        <p>Art Digital</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600" alt="Art 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Illustration Vectorielle</h3>
+                        <p>Art Vectoriel</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=600" alt="Art 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Aquarelle Moderne</h3>
+                        <p>Art Traditionnel</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600" alt="Art 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Collage Digital</h3>
+                        <p>Art Digital</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=600" alt="Art 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Peinture Abstraite</h3>
+                        <p>Art Traditionnel</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=600" alt="Art 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Art Génératif</h3>
+                        <p>Art Digital</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev">‹</button>
+        <button class="lightbox-next" id="lightboxNext">›</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alex Morgan</h4>
+                    <p>Créateur visuel basé à Paris</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Behance">Behance</a>
+                        <a href="#" aria-label="Dribbble">Dribbble</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alex Morgan. Tous droits réservés.</p>
+                <p>Template par <a href="https://olirobz31.github.io/site-freelance-premium/" target="_blank">Olive</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

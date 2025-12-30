@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alex Morgan</title>
+    <meta name="description" content="Contactez-moi pour discuter de votre projet créatif">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Alex Morgan</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="gallery.html">Portfolio</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>Démarrons votre projet ensemble</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Envoyez-moi un message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Type de projet *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Sélectionnez un type</option>
+                                <option value="photography">Photographie</option>
+                                <option value="design">Design Graphique</option>
+                                <option value="branding">Branding</option>
+                                <option value="art">Art Digital</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget estimé</label>
+                            <select id="budget" name="budget">
+                                <option value="">Sélectionnez une fourchette</option>
+                                <option value="<1000">Moins de 1000€</option>
+                                <option value="1000-3000">1000€ - 3000€</option>
+                                <option value="3000-5000">3000€ - 5000€</option>
+                                <option value="5000-10000">5000€ - 10000€</option>
+                                <option value=">10000">Plus de 10000€</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+
+                    <div class="form-success" id="formSuccess" style="display: none;">
+                        <p>✓ Merci ! Votre message a été envoyé avec succès.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <h2>Informations</h2>
+                    
+                    <div class="contact-info-item">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:contact@alexmorgan.fr">contact@alexmorgan.fr</a></p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>📱 Téléphone</h3>
+                        <p><a href="tel:+33612345678">+33 6 12 34 56 78</a></p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>📍 Localisation</h3>
+                        <p>Paris, France</p>
+                        <p class="small">Disponible pour projets à distance</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>🕐 Disponibilité</h3>
+                        <p>Lun - Ven : 9h - 18h</p>
+                        <p class="small">Réponse sous 24h</p>
+                    </div>
+
+                    <div class="contact-social">
+                        <h3>Suivez-moi</h3>
+                        <div class="social-buttons">
+                            <a href="#" class="social-btn">Instagram</a>
+                            <a href="#" class="social-btn">Behance</a>
+                            <a href="#" class="social-btn">Dribbble</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Questions Fréquentes</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Quel est votre délai de livraison ?</h3>
+                    <p>Les délais varient selon le projet, mais comptez généralement 2-4 semaines pour un projet standard.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Proposez-vous des forfaits ?</h3>
+                    <p>Oui, chaque projet est unique. Je propose des devis personnalisés adaptés à vos besoins et budget.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Travaillez-vous à distance ?</h3>
+                    <p>Absolument ! Je collabore avec des clients partout en France et à l'international.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Puis-je voir plus de votre travail ?</h3>
+                    <p>Bien sûr ! Visitez mon <a href="gallery.html">portfolio complet</a> ou mes réseaux sociaux.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alex Morgan</h4>
+                    <p>Créateur visuel basé à Paris</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Behance">Behance</a>
+                        <a href="#" aria-label="Dribbble">Dribbble</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alex Morgan. Tous droits réservés.</p>
+                <p>Template par <a href="https://olirobz31.github.io/site-freelance-premium/" target="_blank">Olive</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Portfolio Créatif</title>
+    <meta name="description" content="Portfolio créatif d'Alex Morgan - Photographe et designer visuel">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Alex Morgan</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="gallery.html">Portfolio</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Créateur Visuel</h1>
+            <p class="hero-subtitle fade-in-delay">Photographie • Design • Art</p>
+            <div class="hero-cta fade-in-delay-2">
+                <a href="gallery.html" class="btn btn-primary">Voir mon travail</a>
+                <a href="contact.html" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Défiler</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Featured Work -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Projets en vedette</h2>
+            <p class="section-subtitle">Une sélection de mes meilleures créations</p>
+            
+            <div class="featured-grid">
+                <article class="featured-item" data-category="photography">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800" alt="Projet 1" loading="lazy">
+                        <div class="featured-overlay">
+                            <h3>Série Urbaine</h3>
+                            <p>Photographie</p>
+                            <a href="gallery.html" class="featured-link">Voir plus →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="featured-item" data-category="design">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800" alt="Projet 2" loading="lazy">
+                        <div class="featured-overlay">
+                            <h3>Identité Visuelle</h3>
+                            <p>Design Graphique</p>
+                            <a href="gallery.html" class="featured-link">Voir plus →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="featured-item" data-category="art">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800" alt="Projet 3" loading="lazy">
+                        <div class="featured-overlay">
+                            <h3>Art Abstrait</h3>
+                            <p>Art Digital</p>
+                            <a href="gallery.html" class="featured-link">Voir plus →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="featured-item" data-category="photography">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Projet 4" loading="lazy">
+                        <div class="featured-overlay">
+                            <h3>Nature Sauvage</h3>
+                            <p>Photographie</p>
+                            <a href="gallery.html" class="featured-link">Voir plus →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="featured-item" data-category="design">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800" alt="Projet 5" loading="lazy">
+                        <div class="featured-overlay">
+                            <h3>UI/UX Design</h3>
+                            <p>Design Web</p>
+                            <a href="gallery.html" class="featured-link">Voir plus →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="featured-item" data-category="art">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800" alt="Projet 6" loading="lazy">
+                        <div class="featured-overlay">
+                            <h3>Illustration</h3>
+                            <p>Art Vectoriel</p>
+                            <a href="gallery.html" class="featured-link">Voir plus →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="featured-cta">
+                <a href="gallery.html" class="btn btn-primary">Voir tous les projets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Ce que je peux faire pour vous</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📸</div>
+                    <h3>Photographie</h3>
+                    <p>Portraits, événements, produits et photographie commerciale professionnelle.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Design Graphique</h3>
+                    <p>Identité visuelle, logos, affiches et supports de communication.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Direction Artistique</h3>
+                    <p>Conception créative et direction visuelle pour vos projets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Prêt à créer ensemble ?</h2>
+            <p>Discutons de votre projet et donnons-lui vie</p>
+            <a href="contact.html" class="btn btn-primary">Démarrer un projet</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alex Morgan</h4>
+                    <p>Créateur visuel basé à Paris</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Behance">Behance</a>
+                        <a href="#" aria-label="Dribbble">Dribbble</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alex Morgan. Tous droits réservés.</p>
+                <p>Template par <a href="https://olirobz31.github.io/site-freelance-premium/" target="_blank">Olive</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
