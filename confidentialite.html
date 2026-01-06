@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - Alex Morgan</title>
+    <meta name="description" content="Politique de confidentialité du portfolio d'Alex Morgan">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+
+        .legal-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .legal-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .legal-header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .legal-header p {
+            font-size: 1.2em;
+            opacity: 0.7;
+        }
+
+        .legal-content {
+            background: var(--card-bg, #fff);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .legal-section {
+            margin-bottom: 40px;
+        }
+
+        .legal-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .legal-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            font-weight: 600;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color, #000);
+        }
+
+        .legal-section h3 {
+            font-size: 1.3em;
+            margin: 25px 0 15px 0;
+            font-weight: 600;
+        }
+
+        .legal-section p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .legal-section ul {
+            margin: 15px 0 15px 30px;
+            line-height: 1.8;
+        }
+
+        .legal-section li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+        }
+
+        .info-box {
+            background: var(--secondary-bg, #f8f9fa);
+            border-left: 4px solid var(--accent-color, #000);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+
+        .info-box p {
+            margin-bottom: 10px;
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-box strong {
+            font-weight: 600;
+        }
+
+        .warning-box {
+            background: var(--warning-bg, #fff3cd);
+            border-left: 4px solid var(--warning-color, #ffc107);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+
+        .back-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: var(--accent-color, #000);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Mode sombre */
+        [data-theme="dark"] .legal-content {
+            background: rgba(30, 30, 30, 0.95);
+            color: #e0e0e0;
+        }
+
+        [data-theme="dark"] .legal-section h2 {
+            color: #fff;
+        }
+
+        [data-theme="dark"] .legal-section h3 {
+            color: #e0e0e0;
+        }
+
+        [data-theme="dark"] .legal-section p,
+        [data-theme="dark"] .legal-section li {
+            color: #c0c0c0;
+        }
+
+        [data-theme="dark"] .info-box {
+            background: rgba(50, 50, 50, 0.8);
+            color: #e0e0e0;
+        }
+
+        [data-theme="dark"] .warning-box {
+            background: rgba(70, 60, 40, 0.8);
+            color: #e0e0e0;
+        }
+
+        [data-theme="dark"] .legal-header h1 {
+            color: #fff;
+        }
+
+        [data-theme="dark"] .legal-header p {
+            color: #c0c0c0;
+        }
+
+        @media (max-width: 768px) {
+            .legal-page {
+                padding-top: 80px;
+            }
+
+            .legal-header h1 {
+                font-size: 2.2em;
+            }
+
+            .legal-content {
+                padding: 30px 25px;
+            }
+
+            .legal-section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation (copiée de index.html) -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Alex Morgan</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="gallery.html">Portfolio</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenu de la politique de confidentialité -->
+    <main class="legal-page">
+        <div class="legal-container">
+            <header class="legal-header">
+                <h1>🔒 Politique de Confidentialité</h1>
+                <p>Protection de vos données personnelles</p>
+            </header>
+
+            <div class="legal-content">
+                <section class="legal-section">
+                    <h2>1. Introduction</h2>
+                    <p>La présente Politique de Confidentialité décrit comment nous collectons, utilisons, stockons et protégeons vos données personnelles lorsque vous visitez notre site web.</p>
+                    <p>Nous nous engageons à protéger votre vie privée et à respecter la réglementation en vigueur, notamment le Règlement Général sur la Protection des Données (RGPD).</p>
+                    <div class="info-box">
+                        <p><strong>Responsable du traitement :</strong> [Votre Nom/Raison Sociale]</p>
+                        <p><strong>Contact :</strong> [Votre Email]</p>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>2. Données Collectées</h2>
+                    <h3>2.1 Données que vous nous fournissez</h3>
+                    <p>Lorsque vous utilisez notre formulaire de contact, nous collectons :</p>
+                    <ul>
+                        <li><strong>Nom et prénom :</strong> pour personnaliser notre réponse</li>
+                        <li><strong>Adresse email :</strong> pour vous contacter en retour</li>
+                        <li><strong>Message :</strong> pour comprendre votre demande</li>
+                        <li><strong>Numéro de téléphone :</strong> si vous choisissez de le fournir</li>
+                    </ul>
+
+                    <h3>2.2 Données collectées automatiquement</h3>
+                    <p>Lors de votre visite, certaines informations techniques peuvent être collectées :</p>
+                    <ul>
+                        <li><strong>Adresse IP :</strong> pour des raisons de sécurité</li>
+                        <li><strong>Type de navigateur :</strong> pour optimiser l'affichage</li>
+                        <li><strong>Données de navigation :</strong> pages visitées, durée de visite</li>
+                        <li><strong>Données d'appareil :</strong> système d'exploitation, résolution d'écran</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>3. Utilisation des Données</h2>
+                    <p>Nous utilisons vos données personnelles uniquement pour :</p>
+                    <ul>
+                        <li>Répondre à vos demandes de contact</li>
+                        <li>Améliorer nos services et l'expérience utilisateur</li>
+                        <li>Assurer la sécurité et la maintenance du site</li>
+                        <li>Analyser le trafic et les statistiques de visite (de manière anonyme)</li>
+                        <li>Respecter nos obligations légales</li>
+                    </ul>
+                    <div class="warning-box">
+                        <p><strong>Important :</strong> Nous ne vendons, ne louons et ne partageons jamais vos données personnelles avec des tiers à des fins commerciales.</p>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>4. Base Légale du Traitement</h2>
+                    <p>Conformément au RGPD, le traitement de vos données repose sur :</p>
+                    <ul>
+                        <li><strong>Votre consentement :</strong> lorsque vous remplissez notre formulaire de contact</li>
+                        <li><strong>Notre intérêt légitime :</strong> pour améliorer nos services et assurer la sécurité du site</li>
+                        <li><strong>Une obligation légale :</strong> si nous devons conserver certaines données</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>5. Durée de Conservation</h2>
+                    <div class="info-box">
+                        <p><strong>Données de contact :</strong> conservées pendant 3 ans maximum après votre dernier contact</p>
+                        <p><strong>Données de navigation :</strong> conservées pendant 13 mois maximum</p>
+                        <p><strong>Données techniques (logs) :</strong> conservées pendant 12 mois pour la sécurité</p>
+                    </div>
+                    <p>À l'expiration de ces délais, vos données sont automatiquement supprimées ou anonymisées.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>6. Vos Droits</h2>
+                    <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+                    
+                    <h3>✅ Droit d'accès</h3>
+                    <p>Vous pouvez demander à consulter les données que nous détenons sur vous.</p>
+                    
+                    <h3>✏️ Droit de rectification</h3>
+                    <p>Vous pouvez demander la correction de données inexactes ou incomplètes.</p>
+                    
+                    <h3>🗑️ Droit à l'effacement</h3>
+                    <p>Vous pouvez demander la suppression de vos données personnelles.</p>
+                    
+                    <h3>⛔ Droit d'opposition</h3>
+                    <p>Vous pouvez vous opposer au traitement de vos données pour des raisons légitimes.</p>
+                    
+                    <h3>📦 Droit à la portabilité</h3>
+                    <p>Vous pouvez récupérer vos données dans un format structuré et lisible.</p>
+                    
+                    <h3>⏸️ Droit à la limitation</h3>
+                    <p>Vous pouvez demander la limitation du traitement de vos données.</p>
+
+                    <div class="info-box">
+                        <p><strong>Pour exercer vos droits :</strong></p>
+                        <p>Envoyez-nous un email à <strong>[Votre Email]</strong> avec votre demande. Nous vous répondrons dans un délai maximum d'un mois.</p>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>7. Cookies</h2>
+                    <h3>7.1 Qu'est-ce qu'un cookie ?</h3>
+                    <p>Les cookies sont de petits fichiers texte stockés sur votre appareil lors de votre visite sur notre site.</p>
+                    
+                    <h3>7.2 Types de cookies utilisés</h3>
+                    <ul>
+                        <li><strong>Cookies essentiels :</strong> nécessaires au fonctionnement du site</li>
+                        <li><strong>Cookies de préférence :</strong> pour mémoriser vos choix (thème clair/sombre)</li>
+                        <li><strong>Cookies analytiques :</strong> pour comprendre comment vous utilisez le site (si applicable)</li>
+                    </ul>
+
+                    <h3>7.3 Gestion des cookies</h3>
+                    <p>Vous pouvez à tout moment désactiver les cookies dans les paramètres de votre navigateur :</p>
+                    <ul>
+                        <li>Chrome : Paramètres → Confidentialité et sécurité → Cookies</li>
+                        <li>Firefox : Options → Vie privée et sécurité → Cookies</li>
+                        <li>Safari : Préférences → Confidentialité → Cookies</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>8. Sécurité des Données</h2>
+                    <p>Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos données :</p>
+                    <ul>
+                        <li>Chiffrement des données sensibles (SSL/TLS)</li>
+                        <li>Accès limité aux données personnelles</li>
+                        <li>Sauvegardes régulières</li>
+                        <li>Surveillance des accès non autorisés</li>
+                        <li>Mises à jour de sécurité régulières</li>
+                    </ul>
+                    <p>Cependant, aucune méthode de transmission sur Internet n'est totalement sécurisée. Nous ne pouvons garantir une sécurité absolue.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>9. Partage des Données</h2>
+                    <p>Vos données peuvent être partagées uniquement avec :</p>
+                    <ul>
+                        <li><strong>Hébergeur :</strong> GitHub Pages (stockage des données du site)</li>
+                        <li><strong>Services d'analyse :</strong> si utilisés - données anonymisées uniquement</li>
+                        <li><strong>Autorités légales :</strong> si requis par la loi</li>
+                    </ul>
+                    <p>Nous ne partageons jamais vos données avec des tiers à des fins marketing.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>10. Transfert International</h2>
+                    <p>Vos données peuvent être hébergées sur des serveurs situés en dehors de l'Union Européenne (notamment aux États-Unis via GitHub).</p>
+                    <p>Dans ce cas, nous nous assurons que des garanties appropriées sont en place pour protéger vos données conformément au RGPD.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>11. Mineurs</h2>
+                    <p>Notre site n'est pas destiné aux personnes de moins de 16 ans. Nous ne collectons pas sciemment de données personnelles auprès de mineurs.</p>
+                    <p>Si vous êtes parent et que vous découvrez que votre enfant nous a fourni des données, contactez-nous pour les supprimer.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>12. Modifications de la Politique</h2>
+                    <p>Nous pouvons modifier cette Politique de Confidentialité à tout moment. Les modifications entrent en vigueur dès leur publication sur cette page.</p>
+                    <p>Nous vous encourageons à consulter régulièrement cette page pour rester informé de nos pratiques.</p>
+                    <div class="info-box">
+                        <p><strong>Dernière mise à jour :</strong> Janvier 2026</p>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>13. Contact et Réclamations</h2>
+                    <p>Pour toute question concernant cette politique ou vos données personnelles :</p>
+                    <div class="info-box">
+                        <p><strong>Email :</strong> [Votre Email]</p>
+                        <p><strong>Adresse :</strong> [Votre Adresse]</p>
+                    </div>
+                    <p>Vous avez également le droit de déposer une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés) si vous estimez que vos droits ne sont pas respectés :</p>
+                    <div class="info-box">
+                        <p><strong>CNIL</strong><br>
+                        3 Place de Fontenoy - TSA 80715<br>
+                        75334 PARIS CEDEX 07<br>
+                        Téléphone : 01 53 73 22 22<br>
+                        Site web : <a href="https://www.cnil.fr" target="_blank">www.cnil.fr</a></p>
+                    </div>
+                </section>
+
+                <div class="text-center">
+                    <a href="index.html" class="back-btn">← Retour à l'accueil</a>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 30px; opacity: 0.6;">
+                <p>Dernière mise à jour : Janvier 2026</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (copié de index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alex Morgan</h4>
+                    <p>Créateur visuel basé à Paris</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Informations légales</h4>
+                    <ul>
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="confidentialite.html">Politique de Confidentialité</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Behance">Behance</a>
+                        <a href="#" aria-label="Dribbble">Dribbble</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alex Morgan. Tous droits réservés.</p>
+                <p>Template par <a href="https://olirobz31.github.io/site-freelance-premium/" target="_blank">Olive</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

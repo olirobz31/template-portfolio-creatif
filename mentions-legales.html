@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions Légales - Alex Morgan</title>
+    <meta name="description" content="Mentions légales du portfolio d'Alex Morgan">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+
+        .legal-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .legal-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .legal-header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .legal-header p {
+            font-size: 1.2em;
+            opacity: 0.7;
+        }
+
+        .legal-content {
+            background: var(--card-bg, #fff);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .legal-section {
+            margin-bottom: 40px;
+        }
+
+        .legal-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .legal-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            font-weight: 600;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color, #000);
+        }
+
+        .legal-section h3 {
+            font-size: 1.3em;
+            margin: 25px 0 15px 0;
+            font-weight: 600;
+        }
+
+        .legal-section p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .legal-section ul {
+            margin: 15px 0 15px 30px;
+            line-height: 1.8;
+        }
+
+        .legal-section li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+        }
+
+        .info-box {
+            background: var(--secondary-bg, #f8f9fa);
+            border-left: 4px solid var(--accent-color, #000);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+
+        .info-box p {
+            margin-bottom: 10px;
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-box strong {
+            font-weight: 600;
+        }
+
+        .back-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: var(--accent-color, #000);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Mode sombre */
+        [data-theme="dark"] .legal-content {
+            background: rgba(30, 30, 30, 0.95);
+            color: #e0e0e0;
+        }
+
+        [data-theme="dark"] .legal-section h2 {
+            color: #fff;
+        }
+
+        [data-theme="dark"] .legal-section h3 {
+            color: #e0e0e0;
+        }
+
+        [data-theme="dark"] .legal-section p,
+        [data-theme="dark"] .legal-section li {
+            color: #c0c0c0;
+        }
+
+        [data-theme="dark"] .info-box {
+            background: rgba(50, 50, 50, 0.8);
+            color: #e0e0e0;
+        }
+
+        [data-theme="dark"] .legal-header h1 {
+            color: #fff;
+        }
+
+        [data-theme="dark"] .legal-header p {
+            color: #c0c0c0;
+        }
+
+        @media (max-width: 768px) {
+            .legal-page {
+                padding-top: 80px;
+            }
+
+            .legal-header h1 {
+                font-size: 2.2em;
+            }
+
+            .legal-content {
+                padding: 30px 25px;
+            }
+
+            .legal-section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation (copiée de index.html) -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Alex Morgan</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="gallery.html">Portfolio</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenu des mentions légales -->
+    <main class="legal-page">
+        <div class="legal-container">
+            <header class="legal-header">
+                <h1>⚖️ Mentions Légales</h1>
+                <p>Informations légales du site</p>
+            </header>
+
+            <div class="legal-content">
+                <section class="legal-section">
+                    <h2>1. Éditeur du Site</h2>
+                    <div class="info-box">
+                        <p><strong>Nom :</strong> [Votre Nom/Raison Sociale]</p>
+                        <p><strong>Adresse :</strong> [Votre Adresse Complète]</p>
+                        <p><strong>Email :</strong> [Votre Email]</p>
+                        <p><strong>Téléphone :</strong> [Votre Numéro]</p>
+                        <p><strong>Statut :</strong> [Auto-entrepreneur / Société / Particulier]</p>
+                        <p><strong>SIRET :</strong> [Votre SIRET si applicable]</p>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>2. Hébergement</h2>
+                    <div class="info-box">
+                        <p><strong>Hébergeur :</strong> GitHub Pages</p>
+                        <p><strong>Société :</strong> GitHub, Inc.</p>
+                        <p><strong>Adresse :</strong> 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis</p>
+                        <p><strong>Site web :</strong> <a href="https://pages.github.com" target="_blank">pages.github.com</a></p>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>3. Propriété Intellectuelle</h2>
+                    <p>L'ensemble du contenu de ce site (textes, images, vidéos, graphismes, logos, icônes) est la propriété exclusive de l'éditeur, sauf mention contraire.</p>
+                    <p>Toute reproduction, distribution, modification, adaptation, retransmission ou publication de ces différents éléments est strictement interdite sans l'accord écrit de l'éditeur.</p>
+                    <h3>Crédits</h3>
+                    <ul>
+                        <li>Design et développement : Alex Morgan</li>
+                        <li>Images : Unsplash (licence libre)</li>
+                        <li>Template : Olive</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>4. Données Personnelles</h2>
+                    <p>Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données personnelles vous concernant.</p>
+                    <p>Pour exercer ces droits, vous pouvez nous contacter à l'adresse email indiquée ci-dessus.</p>
+                    <p><strong>Données collectées :</strong></p>
+                    <ul>
+                        <li>Formulaire de contact : nom, email, message</li>
+                        <li>Cookies analytiques (si applicable)</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>5. Cookies</h2>
+                    <p>Ce site peut utiliser des cookies pour améliorer l'expérience utilisateur et analyser le trafic.</p>
+                    <p>Vous pouvez désactiver les cookies dans les paramètres de votre navigateur. Cependant, cela peut affecter certaines fonctionnalités du site.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>6. Limitation de Responsabilité</h2>
+                    <p>L'éditeur ne pourra être tenu responsable des dommages directs ou indirects causés au matériel de l'utilisateur lors de l'accès au site.</p>
+                    <p>L'éditeur s'efforce de maintenir le site accessible en permanence, mais n'est tenu à aucune obligation d'y parvenir.</p>
+                    <p>L'éditeur peut être amené à interrompre le site ou une partie des services, à tout moment sans préavis, le tout sans droit à indemnités.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>7. Liens Hypertextes</h2>
+                    <p>Le site peut contenir des liens vers d'autres sites. L'éditeur n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>8. Droit Applicable</h2>
+                    <p>Les présentes mentions légales sont régies par le droit français. En cas de litige, les tribunaux français seront seuls compétents.</p>
+                </section>
+
+                <div class="text-center">
+                    <a href="index.html" class="back-btn">← Retour à l'accueil</a>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 30px; opacity: 0.6;">
+                <p>Dernière mise à jour : Janvier 2026</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (copié de index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alex Morgan</h4>
+                    <p>Créateur visuel basé à Paris</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Informations légales</h4>
+                    <ul>
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="confidentialite.html">Politique de Confidentialité</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Behance">Behance</a>
+                        <a href="#" aria-label="Dribbble">Dribbble</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alex Morgan. Tous droits réservés.</p>
+                <p>Template par <a href="https://olirobz31.github.io/site-freelance-premium/" target="_blank">Olive</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
